@@ -7,7 +7,7 @@ django.setup()
 from django.contrib.auth.models import User
 
 # Change these to whatever you want your "Boss" account to be
-username = 'sachin_boss'
+username = 'Hemja_boss'
 password = 'SecretPassword123' 
 
 if not User.objects.filter(username=username).exists():
